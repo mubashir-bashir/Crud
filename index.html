@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h1>Form</h1>
+        </legend>
+        <form id="form">
+            <input type="text" name="name" id="name" placeholder="Name"> <br><br>
+            <input type="text" name="job" id="job" placeholder="Job"><br><br>
+            <input type="text" name="exp" id="exp" placeholder="Experience"><br><br>
+            <input type="button" value="submit" id="btn" onclick="submitbtn()">
+            <input type="reset" value="reset">
+        </form>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>
+            <h1>Data From Local Storage</h1>
+        </legend>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Experience</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody> 
+              
+            </tbody>
+        </table>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
